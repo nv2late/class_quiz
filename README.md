@@ -1,38 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 주의사항
 
-## Getting Started
+> ㅇㅍㄹ ㅋㄷㅋㅍ FE코스를 수강하면서 부가적으로 나오는 수업별 퀴즈를 스스로 작업해보고 기록하는 공간입니다. 퀴즈 정답이 제공되지 않기에 시안이나 요구사항에 맞춰서 구현하면 셀프완료 처리합니다. 따라서 많이 부족하고 이상한 코드가 난립할 수 있으니 주의를 요합니다.
+>
+> [강의 링크](https://www.inflearn.com/course/%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B3%A0%EB%86%8D%EC%B6%95-%EC%BD%94%EC%8A%A4/dashboard)
 
-First, run the development server:
+## 기록하는 방식
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- 시안이나 제시된 문제에 따라서 스스로 기능을 구현해보고 있습니다.
+- 완전 몰라서 검색해서 완성한 내용이나 구체적인 부분은 노션에 따로 기록중이기에 코드에 주석으로 적어두지 않습니다.
+- 더 좋은 방법을 찾지 못했거나 추후에 찾고자 하지만 급하지 않은 경우에는 주석처리를 해놓습니다.
