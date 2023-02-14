@@ -21,7 +21,6 @@ import {
   faChevronRight,
   faHeart,
   faHouse,
-  faLocation,
   faLocationDot,
   faMagnifyingGlass,
   faUser,
