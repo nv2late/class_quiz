@@ -1,4 +1,5 @@
 import { gql, useMutation } from '@apollo/client';
+import { useRouter } from 'next/router';
 import { useState } from 'react';
 
 const CREATE_PRODUCT = gql`
@@ -12,7 +13,10 @@ const CREATE_PRODUCT = gql`
 `;
 
 export default function DynamicRoutingPracticePage() {
+  const router = useRouter();
+
   const [createProduct] = useMutation(CREATE_PRODUCT);
+
   const [seller, setSeller] = useState('');
   const [productName, setProductName] = useState('');
   const [productDetail, setProductDetail] = useState('');
@@ -31,10 +35,11 @@ export default function DynamicRoutingPracticePage() {
         },
       });
 
-      console.log(result.data.createProduct);
       alert(result.data.createProduct.message);
+      console.log(result.data.createProduct._id);
+      router.push(`/05/boards/${result.data.createProduct._id}`);
     } catch (error) {
-      console.log(error);
+      console.log(error.message);
     }
   };
 
