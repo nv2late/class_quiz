@@ -1,3 +1,5 @@
+import { ProductBtn } from './DynamicRouting.styles';
+
 export default function DynamicRoutingPracticeUI(props) {
   return (
     <>
@@ -10,7 +12,9 @@ export default function DynamicRoutingPracticeUI(props) {
       <br />
       상품가격: <input type="number" onChange={props.onChangePrice} />
       <br />
-      <button onClick={props.onClickRegister}>상품을 등록합니다.</button>
+      <ProductBtn btnColor={props.btnColor} onClick={props.onClickRegister}>
+        상품을 등록합니다.
+      </ProductBtn>
     </>
   );
 }
